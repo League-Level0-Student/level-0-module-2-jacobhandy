@@ -18,8 +18,21 @@ AnimalFarm() {
 	 * 1. Ask the user which animal they want, then play the sound of that
 	 * animal.
 	 */
+String organism = JOptionPane.showInputDialog("What animal do you want? You can get a cow, a duck, a doge, or a llama. You can also get a robloxian.");
 
 	/* 2. Make it so that the user can keep entering new animals. */
+if(organism.equals("cow")) {
+	playNoise(mooFile);
+}
+if(organism.equals("duck")) {
+	playNoise(quackFile);
+}
+if(organism.equals("doge")) {
+	playNoise(woofFile);
+}
+if(organism.equals("llama")) {
+	playNoise(llamaFile);
+}
 }
 
 void playMoo() {
@@ -39,7 +52,6 @@ String mooFile = "moo.wav";
 String woofFile = "woof.wav";
 String meowFile = "meow.wav";
 String llamaFile = "llama.wav";
-
 
 /* Ignore this stuff */
 
