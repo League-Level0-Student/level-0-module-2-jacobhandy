@@ -19,7 +19,8 @@ public class SafeCracker {
 		 * combinations
 		 */
 
-
+int secretCode = 9999999 - wekncrzpasfdkjhcfjse;
+tryCode(secretCode);
 	}
 
 	static void tryCode(int guess) {
